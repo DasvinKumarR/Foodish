@@ -1,0 +1,37 @@
+/* setting navbar background color */
+.navbar{
+    background-color: #E0E0E0;
+}
+/* setting header text design */
+.header{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    margin-right: 20px;
+}
+/* Root div flex setting */
+.root{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 89.1vh;
+    flex-direction: column;
+}
+/* setting image height and width */
+img{
+    height: 350px;
+    width: 300px;
+}
+/* setting paragraph tag text size */
+.text{
+    font-size: 2rem;
+}
+/* setting screen text and content responsive to screen size */
+@media only screen and (max-width:600px){
+    .text{
+        font-size: 22px;
+    }
+    .content{
+        height: 91.3vh;
+    }
+}
